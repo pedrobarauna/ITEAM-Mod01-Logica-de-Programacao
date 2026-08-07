@@ -1,4 +1,4 @@
-Algoritmo "Aula04_Exe01"
+Algoritmo "Aula04_Ex01_Emprestimo"
 
 // Sistema de Emprestimo, se aprovado ou negado
 
