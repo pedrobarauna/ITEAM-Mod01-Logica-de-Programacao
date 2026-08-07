@@ -1,0 +1,26 @@
+algoritmo "Aula04_Exe02_ControleEstoque"
+
+var
+   // Armazena a quantidade de produtos no estoque
+   quantidade: inteiro
+
+inicio
+
+   // Solicita a quantidade atual em estoque
+   escreva("Digite a quantidade em estoque: ")
+   leia(quantidade)
+
+   // Verifica se a quantidade está baixa
+   se (quantidade <= 10) entao
+
+      // Caso tenha 10 ou menos produtos
+      escreval("Reposição necessária.")
+
+   senao
+
+      // Caso tenha mais de 10 produtos
+      escreval("Estoque suficiente.")
+
+   fimse
+
+fimalgoritmo
